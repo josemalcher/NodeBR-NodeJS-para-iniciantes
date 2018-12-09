@@ -26,6 +26,59 @@ A NodeBR é uma comunidade fundada por pessoas com interesse em aprender mais so
 
 ## <a name="parte0">Modulo 0 - Introdução</a>
 
+- https://twitter.com/nodebr
+- https://nodebr.org/
+
+- Instalação no windows: https://medium.com/@adsonrocha/como-instalar-o-node-js-no-windows-10-cf2bd460b8a8
+- Instalação no Linux Ubuntu: https://nodejs.org/en/download/package-manager/
+- Instalação no MacOS: https://pplware.sapo.pt/tutoriais/node-js-aprenda-instalar-no-macos/
+
+#### Começando um projeto Node.js
+
+```
+    npm  init 
+```
+
+```js
+console.log('Hello node');
+
+const a = 1;
+const b = 10;
+
+console.log(a + b);
+```
+
+```
+> node .\index.js
+Hello node
+11
+```
+
+```json
+{
+  "name": "01-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js", //npm run dev
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+```
+
+```
+> npm run dev
+
+> 01-npm@1.0.0 dev C:\Users\josemalcher\Documents\09-Workspaces\NodeBR-NodeJS-para-iniciantes\01-npm
+> node index.js
+
+Hello node
+11
+```
 
 
 [Voltar ao Índice](#indice)
